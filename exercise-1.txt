@@ -1,0 +1,48 @@
+// Pseucode newton second law
+
+STORE 'massa' with value 600
+STORE 'percepatan' with value 2 
+CALCULATE 'massa' times 'percepatan' 
+SET 'resultan gaya' with calculation result
+DISPLAY 'resultan gaya'
+
+// pseucode tahun kabisat
+STORE 'tahun' with any value
+IF 'tahun' out in the for '4' and not divisible '100' then 'tahun kabisat' and
+ELSE IF 'tahun out in the for '4' , out in the for '100' and out in the for '400' then 'tahun kabisat'
+ELSE 'bukan tahun kabisat'
+SET 'tahun kabisat' with the formula
+DISPLAY 'tahun kabisat'
+
+// algoritma tahun kabisat
+definisikan tahun dengan nilai apa saja
+jika tahun habis di bagi 4 dan tidak habis di bagi 100 maka itu tahun kabisat dan
+jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400 maka itu tahun kabisat
+lain dari itu bukan tahun kabisat
+hitung tahun kabisat dengan rumus tersebut
+tampilkan tahun kabisat
+
+//pseucode mencuci
+STORE 'pakaian' with value 20
+FOR pakaian <'20' do
+SET 'cuci pakaian' with the formula
+DISPLAY 'cuci pakaian'
+
+//algoritma mencuci
+definisikan pakaian dengan nilai 20
+untuk pakaian di bawah 20 akan melakukan perulangan sampai jumlahnya 20
+hitung cuci pakaian dengan rumus tersebut
+tampilkan cuci pakaian
+
+//pseucode potong kuku
+STORE 'siswa' with value 40
+IF 'kuku' is long then 'punished' 
+ELSE 'praised'
+DISPLAY result
+
+
+//algoritma
+definisikan siswa dengan nilai 40
+jika siswa memiliki kuku panjang maka akan di hukum
+lain dari itu maka akan di puji
+tampilkan hasil
